@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mocean.sample.MainActivity">
+
+    <Button
+        android:id="@+id/interstitialSample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Interstitial Ads" />
+
+    <Button
+        android:id="@+id/nativeSample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Native Ads" />
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/ivNative"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ivNative"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnCta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <application>
+        <!-- debug only -->
+        <meta-data
+            android:name="mocean.debug"
+            android:value="true" />
+
+        <meta-data
+            android:name="mocean.debug.operator"
+            android:value="40478" />
+
+    </application>
+
+</manifest>
